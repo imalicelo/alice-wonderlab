@@ -32,6 +32,8 @@ GitHub Pages publishes `main` from the repository root. Commit the generated `in
 
 `shell.html` includes static Open Graph and Twitter Card metadata in the document head, before any scene assets. LinkedIn can read the title, description, canonical URL and image without running JavaScript or loading the 3D model.
 
+The build also extracts the three embedded cat portraits into content-hashed PNG files, preserving their original bytes. This keeps the published HTML small for preview crawlers and first-time visitors. Commit the generated `cat-portrait-*.png` files with `index.html` after building.
+
 `social-preview.jpg` is a 1200×630 screenshot of the island. The build writes a copy with a content hash in its filename and inserts that absolute HTTPS URL into the image tags. When changing the preview, replace the source image, run `npm run build`, and commit the new generated `social-preview-*.jpg` with `index.html`. Keep previously published image versions available for existing shares.
 
 After deploying sharing metadata changes, inspect `https://imalicelo.github.io/alice-wonderlab/` at https://www.linkedin.com/post-inspector/ to refresh LinkedIn's cached preview. Open Graph tags do not disable LinkedIn's cache; the refreshed preview applies to new posts, not existing posts. Use the canonical website URL when sharing, rather than the GitHub repository URL.

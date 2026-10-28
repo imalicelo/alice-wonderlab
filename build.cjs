@@ -22,6 +22,21 @@ const {createHash} = require('node:crypto');
   const socialFile = `social-preview-${socialVersion}.jpg`;
   fs.writeFileSync(path.join(__dirname, socialFile), socialImage);
   const html = fs.readFileSync(path.join(__dirname, 'shell.html'), 'utf8')
+    // Keep multi-megabyte portrait data out of the HTML fetched by link crawlers.
+    // The scene already accepts image URLs, so preserve the original PNG bytes.
+    .replace(/(<script type="application\/json" id="cat-portraits">)([\s\S]*?)(<\/script>)/, (_,open,json,close) => {
+      const portraits = JSON.parse(json);
+      for (const [name,value] of Object.entries(portraits)) {
+        const match = /^data:image\/png;base64,([A-Za-z0-9+/=]+)$/.exec(value);
+        if (!match) throw new Error(`Expected an embedded PNG portrait: ${name}`);
+        const bytes = Buffer.from(match[1], 'base64');
+        const hash = createHash('sha256').update(bytes).digest('hex').slice(0,12);
+        const file = `cat-portrait-${name}-${hash}.png`;
+        fs.writeFileSync(path.join(__dirname,file),bytes);
+        portraits[name] = file;
+      }
+      return open + JSON.stringify(portraits) + close;
+    })
     .replaceAll('__SOCIAL_IMAGE_FILE__', socialFile)
     .replace(/(src|href)="(model-loader\.js|legacy-00\.js|site\.css|site-portfolio\.js)(?:\?[^"\s]*)?"/g, (_,attribute,file) => {
       const version = createHash('sha256').update(fs.readFileSync(path.join(__dirname,file))).digest('hex').slice(0,12);
