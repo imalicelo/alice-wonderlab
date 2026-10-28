@@ -28,6 +28,14 @@ Run `npm ci`, then `npm run build` after editing. Run `npm run check` to verify 
 
 GitHub Pages publishes `main` from the repository root. Commit the generated `index.html`, `site.css` and `site-portfolio.js` with source changes. No API keys or runtime credentials are required.
 
+## Link previews
+
+`shell.html` includes static Open Graph and Twitter Card metadata in the document head, before any scene assets. LinkedIn can read the title, description, canonical URL and image without running JavaScript or loading the 3D model.
+
+`social-preview.jpg` is a 1200×630 screenshot of the island. The build writes a copy with a content hash in its filename and inserts that absolute HTTPS URL into the image tags. When changing the preview, replace the source image, run `npm run build`, and commit the new generated `social-preview-*.jpg` with `index.html`. Keep previously published image versions available for existing shares.
+
+After deploying sharing metadata changes, inspect `https://imalicelo.github.io/alice-wonderlab/` at https://www.linkedin.com/post-inspector/ to refresh LinkedIn's cached preview. Open Graph tags do not disable LinkedIn's cache; the refreshed preview applies to new posts, not existing posts. Use the canonical website URL when sharing, rather than the GitHub repository URL.
+
 ## Credits
 
 See `AUDIO_CREDITS.txt`, `TOOLKIT_LOGO_CREDITS.txt`, and `PHOTO_TREATMENT.txt`. Cat photographs are Alice’s original photos; the album uses subtle display-only lighting adjustments. Artwork, photographs, résumé and music are not granted an additional reuse license by this repository.
