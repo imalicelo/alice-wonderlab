@@ -4,10 +4,16 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node build.cjs",
-    "check": "node verify.cjs"
+    "check": "node verify.cjs && node mobile-check.mjs",
+    "build:mobile": "node build-mobile-model.mjs"
   },
   "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
     "esbuild": "0.28.2",
+    "meshoptimizer": "^1.3.0",
+    "sharp": "^0.35.5",
     "three": "0.186.1"
   }
 }

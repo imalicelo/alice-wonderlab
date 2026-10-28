@@ -1,0 +1,48 @@
+{
+  "encoding": "gzip",
+  "compressedBytes": 68484774,
+  "originalBytes": 113842520,
+  "originalSha256": "075cea9194d336fe364867ea491567268d6567f429708a5de2fbd1295c23ae5f",
+  "chunks": [
+    {
+      "file": "scene-mobile-00.bin",
+      "bytes": 10485760,
+      "sha256": "d4f8a9099eb1753b311bd7f0a427764724aa95bd414c4a1c9e207da2304137ea"
+    },
+    {
+      "file": "scene-mobile-01.bin",
+      "bytes": 10485760,
+      "sha256": "35d804e48ea87a08e2f7598a0bc1c4d7c2eebb8a67ec373e38c758f9c22659ce"
+    },
+    {
+      "file": "scene-mobile-02.bin",
+      "bytes": 10485760,
+      "sha256": "58c96539486979cb9a9b09c54a8953bf9eee902a15c47e9fd869987548f0567d"
+    },
+    {
+      "file": "scene-mobile-03.bin",
+      "bytes": 10485760,
+      "sha256": "a9fdba702925cd997e5171abfe79c2cfffba151c6963a7e42731266d47daf7ad"
+    },
+    {
+      "file": "scene-mobile-04.bin",
+      "bytes": 10485760,
+      "sha256": "34bb60a2dd0c500112c020e8909b04b2c76035effab0f096c622d4030f749339"
+    },
+    {
+      "file": "scene-mobile-05.bin",
+      "bytes": 10485760,
+      "sha256": "ac9f4d947618d7c34586ef87a2318b24f722850bce13198157764acc4dfd2e9d"
+    },
+    {
+      "file": "scene-mobile-06.bin",
+      "bytes": 5570214,
+      "sha256": "8696b21a5ba319110124b777dd16ceeb9e26ec552d52268314bab928f7f00ff9"
+    }
+  ],
+  "sourceSha256": "dbf0994006c95d889178ea9f6f3f28771e432ae3241bb759e6502b774958388e",
+  "variant": "mobile",
+  "originalTriangles": 5523690,
+  "triangles": 2181238,
+  "textureMaxSize": 1024
+}

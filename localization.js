@@ -1,6 +1,7 @@
 import en from './content.json';
 import zh from './content-zh.json';
 const pairs={
+ 'Drag to explore · Pinch to zoom':'单指拖动环顾 · 双指缩放',
  'Behind the café':'小屋背面','Meet the real cats':'认识真实的小猫们','Close cat credits':'关闭小猫致谢','A LITTLE THANK-YOU':'一份小小的感谢','For my little muses.':'献给我的小小灵感家。','Crème · Sesame · Pudding':'焦焦 · 小黑 · 布丁','Thank you for the company, the inspiration, and all the little moments that make me smile. There’s a little bit of each of you in Alice Wonderlab.':'谢谢你们的陪伴、灵感，还有那些让我忍不住微笑的小瞬间。Alice Wonderlab 里，也藏着你们每一位的影子。','With love, Alice':'爱你们的 Alice','Nine snapshots. Three very good cats.':'九个可爱瞬间，三位特别嘉宾。','Pause floating photos':'暂停照片漂浮','Resume floating photos':'继续照片漂浮',
  'A little coconut surprise.':'一颗椰子带来的小插曲。',
  'Shake gently':'轻轻摇一摇','Give the coconut tree a little shake':'轻轻摇一摇大椰子树','A little shake?':'轻轻摇一下？','Close island story':'关闭小岛故事','A tiny island incident':'小岛突发小事件','SESAME · ISLAND REPAIR CREW':'小黑 · 小岛维修队',

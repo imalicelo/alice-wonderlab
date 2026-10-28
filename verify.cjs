@@ -16,8 +16,9 @@ if (crypto.createHash('sha256').update(original).digest('hex') !== manifest.orig
   throw new Error('Model differs from the saved Stage125 original.');
 const html = fs.readFileSync('index.html', 'utf8');
 for (const match of html.matchAll(/<script\b[^>]*\ssrc="([^"]+)"/g)) {
-  if (!fs.existsSync(match[1])) throw new Error('Missing script: ' + match[1]);
-  new vm.Script(fs.readFileSync(match[1], 'utf8'), {filename: match[1]});
+  const file = match[1].split('?')[0];
+  if (!fs.existsSync(file)) throw new Error('Missing script: ' + match[1]);
+  new vm.Script(fs.readFileSync(file, 'utf8'), {filename: file});
 }
 for (const name of fs.readdirSync('.')) {
   if (fs.statSync(name).isFile() && fs.statSync(name).size > 25 * 1024 * 1024)

@@ -4,14 +4,14 @@ import {RoundedBoxGeometry} from 'three/examples/jsm/geometries/RoundedBoxGeomet
 // A small, independent 3D bar. All meshes are local; the saved island stays intact.
 export function createTeaLab(mount,{onIngredient,onShake,reducedMotion=false}={}){
  const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
- renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;
+ renderer.setPixelRatio(Math.min(devicePixelRatio,window.islandMobile?1.25:1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;
  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;
  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
  renderer.domElement.className='aw-tea-canvas';renderer.domElement.setAttribute('aria-label','Interactive 3D tea bar');renderer.domElement.setAttribute('role','img');mount.prepend(renderer.domElement);
  const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(36,1,.1,40);
  camera.position.set(3.5,3.4,6.5);camera.lookAt(0,1.25,0);
  scene.add(new THREE.HemisphereLight(0xfff8df,0x8a9c88,3.1));
- const key=new THREE.DirectionalLight(0xfff2d9,3.4);key.position.set(-3,7,5);key.castShadow=true;key.shadow.mapSize.set(1024,1024);key.shadow.camera.left=-5;key.shadow.camera.right=5;key.shadow.camera.top=5;key.shadow.camera.bottom=-5;key.shadow.normalBias=.025;scene.add(key);
+ const key=new THREE.DirectionalLight(0xfff2d9,3.4);key.position.set(-3,7,5);key.castShadow=true;key.shadow.mapSize.set(window.islandMobile?512:1024,window.islandMobile?512:1024);key.shadow.camera.left=-5;key.shadow.camera.right=5;key.shadow.camera.top=5;key.shadow.camera.bottom=-5;key.shadow.normalBias=.025;scene.add(key);
  const edge=new THREE.DirectionalLight(0xe1f7ee,2);edge.position.set(4,3,-3);scene.add(edge);
  const matte=(color,extra={})=>new THREE.MeshStandardMaterial({color,roughness:.48,...extra});
  function mesh(geo,mat,parent=scene,x=0,y=0,z=0){const o=new THREE.Mesh(geo,mat);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o;}
