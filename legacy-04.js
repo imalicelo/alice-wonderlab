@@ -1,0 +1,1 @@
+document.querySelector('#cup-choice').addEventListener('change',e=>{if(e.target.value==='Interior_Tea_Station_Sink'){const r=window.__sceneReview;r.camera.position.set(2.65,3.9,-1.50);r.controls.target.set(1.65,2.57,-2.68);r.controls.update();}});

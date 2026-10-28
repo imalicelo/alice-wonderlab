@@ -1,0 +1,1 @@
+document.querySelector('#cup-choice').addEventListener('change',e=>{if(e.target.value==='Interior_Kitten_Menu_Brand_Portrait'){const r=window.__sceneReview;r.camera.position.set(1.8925,4.545,-1.45);r.controls.target.set(1.8925,4.545,-3.074);r.controls.update()}});

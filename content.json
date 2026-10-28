@@ -1,0 +1,261 @@
+{
+  "about": {
+    "name": "Wanyi Wei",
+    "title": "Meet the maker.",
+    "intro": "The person behind Alice Wonderlab.",
+    "storyTitle": "The story behind Alice Wonderlab.",
+    "story": [
+      {
+        "text": "Hi, welcome to Alice Wonderlab. It’s so lovely to meet you. ♡"
+      },
+      {
+        "text": "I thought I’d start with the story behind the name."
+      },
+      {
+        "text": "When I was little, the grown-ups around me always said I had a knack for making things. My head was full of new ideas, and I loved getting hands-on, bringing those wild little imaginings to life, one step at a time."
+      },
+      {
+        "text": "So they gave me the English name Alice, inspired by Alice in Wonderland."
+      },
+      {
+        "text": "As I’ve grown up, that love of creating and exploring has stayed with me."
+      },
+      {
+        "text": "These days, with so much moving so quickly, we’ve grown used to getting to know someone through a photo, a few lines in a bio, or a video that lasts just a few seconds."
+      },
+      {
+        "text": "But can a few seconds really tell someone’s whole story?"
+      },
+      {
+        "text": "This time, I wanted to try something a little different."
+      },
+      {
+        "text": "To turn a traditional portfolio into a little world you can step into and explore for yourself.",
+        "emphasis": true
+      },
+      {
+        "text": "We may not have met before, but I hope this gives you a warmer, more playful way to take your time and get to know the real me."
+      },
+      {
+        "text": "That’s how Alice Wonderlab began."
+      },
+      {
+        "text": "I called it a Lab because I wanted it to be more than a place to share stories and show my work. I wanted a little space where I could keep exploring, try out new ideas, and actually bring them to life."
+      },
+      {
+        "text": "This little milk tea shop is my very first experiment."
+      },
+      {
+        "text": "To be honest, with my background in communication, 3D modeling was completely new to me."
+      },
+      {
+        "text": "From learning the software and designing the scene to finding a home for each little cat, lamp, and quiet corner, I spent many nights figuring things out from scratch. I tried things, changed them, and tried again, slowly building the little shop I’d imagined."
+      },
+      {
+        "text": "I hope you have fun here. And I hope this slightly different way of meeting helps you get to know the real Alice a little better."
+      },
+      {
+        "text": "Well, that’s enough storytelling from me for now."
+      },
+      {
+        "text": "Why not wander over to another corner of the shop?"
+      },
+      {
+        "text": "You might meet a few sweet cats, hear a song that’s kept me company for years, or stumble upon a little secret tucked away somewhere."
+      },
+      {
+        "text": "The rest of the story is yours to discover.",
+        "emphasis": true
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "rednote",
+      "title": "A personal brand on RedNote",
+      "category": "CONTENT & BRAND PARTNERSHIPS",
+      "role": "Independent Content Creator & Influencer (KOL)",
+      "dates": "Jul 2025 – Present",
+      "summary": "Building an audience, a recognizable voice, and brand partnerships through organic content.",
+      "metric": "500K+",
+      "metricLabel": "peak content impressions",
+      "tags": [
+        "Personal branding",
+        "Organic growth",
+        "Brand partnerships"
+      ],
+      "bullets": [
+        "Built a personal brand from scratch, growing to 3K+ followers within six months and achieving peak content exposure of 500K+ impressions through organic content strategies.",
+        "Secured paid advertising sponsorships and managed partnership negotiations with 20+ brands, overseeing campaign coordination, sponsored content creation, and brand communications."
+      ]
+    },
+    {
+      "id": "youth",
+      "title": "A digital space for LGBTQ+ youth",
+      "category": "WEB DESIGN & STORYTELLING",
+      "role": "Web Designer & Developer",
+      "dates": "Jan 2024 – Apr 2024",
+      "summary": "A responsive support website bringing together UX/UI, original writing, and multimedia storytelling.",
+      "metric": "UX/UI",
+      "metricLabel": "designed around a community",
+      "tags": [
+        "Responsive design",
+        "Original content",
+        "Multimedia storytelling"
+      ],
+      "bullets": [
+        "Independently designed and developed a responsive website integrating UX/UI principles, original content, and multimedia storytelling to support LGBTQ+ youth, earning faculty recognition."
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "Handcrafted for little companions",
+      "category": "E-COMMERCE & OPERATIONS",
+      "role": "Co-Founder & Marketing Lead",
+      "dates": "Jun 2023 – Present",
+      "summary": "A handcrafted pet products brand connecting product design, community growth, and e-commerce operations.",
+      "metric": "~5K",
+      "metricLabel": "social media followers",
+      "tags": [
+        "Influencer partnerships",
+        "E-commerce operations",
+        "A/B testing"
+      ],
+      "bullets": [
+        "Founded a handcrafted pet products brand and led online influencer partnerships and offline promotional campaigns, growing its social media audience to approximately 5K followers.",
+        "Managed end-to-end e-commerce operations, including product selection, design, international logistics, and A/B testing to optimize marketing strategies and product positioning."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Marketing & Creative Strategy",
+      "ingredient": "Ice",
+      "verb": "Add ice",
+      "note": "Audience first. Growth with a purpose.",
+      "bullets": [
+        "Segment B2B / B2C audiences",
+        "Shape brand positioning & messaging",
+        "Plan full-funnel campaigns",
+        "Drive organic acquisition & lead generation",
+        "Activate communities & partnerships"
+      ]
+    },
+    {
+      "name": "Data Analytics & Testing",
+      "ingredient": "Jasmine tea",
+      "verb": "Pour jasmine tea",
+      "note": "Turn signals into the next experiment.",
+      "bullets": [
+        "Monitor CTR, CVR & engagement",
+        "Run A/B tests & compare results",
+        "Build Tableau / Power BI dashboards",
+        "Translate KPIs into campaign insights",
+        "Benchmark audiences & competitors"
+      ]
+    },
+    {
+      "name": "Public Relations & Partnerships",
+      "ingredient": "Milk",
+      "verb": "Pour milk",
+      "note": "Clear messages. Stronger relationships.",
+      "bullets": [
+        "Social listening & sentiment monitoring",
+        "Identify reputation risks",
+        "Develop key messages & editorial plans",
+        "Coordinate stakeholder communications",
+        "Build event & community partnerships"
+      ]
+    },
+    {
+      "name": "Advertising & Content Creation",
+      "ingredient": "Syrup",
+      "verb": "Add syrup",
+      "note": "Connect the brief, the media, and the creative.",
+      "bullets": [
+        "Develop B2B advertising proposals",
+        "Plan integrated media campaigns",
+        "Activate KOL / influencer partnerships",
+        "Produce branded content & social video",
+        "Optimize creative for CTR & engagement"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "lani",
+      "cup": "oolong-yuzu",
+      "flavor": "Oolong Yuzu",
+      "short": "Lani Cao Law",
+      "company": "Lani Cao Law Office",
+      "location": "Bellevue, WA",
+      "dates": "Mar 2025 – Present",
+      "role": "Public Relations Specialist",
+      "previous": "Previously Marketing Strategy Intern",
+      "color": "#bb9853",
+      "bullets": [
+        "Led integrated online and offline marketing through digital campaigns, industry conferences (CIE/USA-SEA, AILA), and community partnerships, driving 10× monthly follower growth and 20% more client inquiries, as firm revenue grew 2.4×.",
+        "Built and independently managed the firm's monthly newsletter program from scratch, overseeing editorial strategy, content, design, printing, and distribution; led PR, stakeholder communications, client relations, and case operations."
+      ]
+    },
+    {
+      "id": "weibo",
+      "cup": "taro-milk-tea",
+      "flavor": "Taro Milk Tea",
+      "short": "Weibo",
+      "company": "Sina Weibo",
+      "descriptor": "Chinese X",
+      "location": "Shanghai, China",
+      "dates": "Jun 2024 – Sep 2024",
+      "role": "Business Data & Strategy Intern, Automotive",
+      "color": "#9a88ac",
+      "bullets": [
+        "Co-developed integrated media strategies for 5 automotive brand partnerships, tailoring Weibo advertising packages featuring sponsored trending topics, premium search placements, and KOL campaigns to client marketing objectives and supporting advertising sales.",
+        "Built Tableau dashboards tracking audience reach, posting frequency, and engagement for 80+ automotive executives across 12 automotive groups, translating performance insights into advertising recommendations; also supported the onboarding of 100 verified industry leaders.",
+        "Conducted real-time social listening and competitive intelligence across 15+ automotive brands, analyzing consumer sentiment, vehicle positioning, and competitor campaigns to identify reputation risks and inform brand differentiation strategies."
+      ]
+    },
+    {
+      "id": "includrs",
+      "cup": "avocado-shake",
+      "flavor": "Avocado Shake",
+      "short": "Includrs / Datedocs",
+      "company": "Includrs / Datedocs",
+      "location": "Seattle, WA",
+      "dates": "Mar 2024 – Jun 2024",
+      "role": "Social Media Management Intern",
+      "color": "#839d74",
+      "bullets": [
+        "Grew Instagram and TikTok with zero paid media: produced 40+ posts and 15 promotional videos in Premiere Pro and After Effects, building a consistent brand voice that drove a 15% increase in followers and a 20% rise in registered users entirely organically.",
+        "Coordinated local partnerships and cross-promotional campaigns with three Seattle-area businesses and two UW student organizations, managing partner outreach and event promotions to expand community engagement and campus visibility, lifted student sign-ups 12% and delivered 8K+ campaign impressions."
+      ]
+    },
+    {
+      "id": "ogilvy",
+      "cup": "classic-milk-tea",
+      "flavor": "Classic Milk Tea",
+      "short": "Ogilvy",
+      "company": "Ogilvy",
+      "location": "Shanghai, China",
+      "dates": "Nov 2023 – Jan 2024",
+      "role": "Media Strategy and Advertising Planning Intern",
+      "previous": "Mercedes-Benz Account",
+      "color": "#b78c71",
+      "bullets": [
+        "Developed Gen Z consumer insights for Mercedes-Benz through social listening and audience research across RedNote and Bilibili, analyzing preferences and engagement patterns among 120+ Gen Z consumers and translating findings into 3 data-driven advertising proposals to inform youth-focused brand positioning and creative strategy.",
+        "Delivered market intelligence for 6 live automotive campaigns: aggregated purchase-behavior data from 10+ brokerage and dealership platforms, modeled trends across 5 regions in Power BI, and tracked supply, traffic, and content performance; recommendations drove real-time optimizations that lifted localized click-through and engagement 12%."
+      ]
+    }
+  ],
+  "management": {
+    "name": "Project & Brand Operations",
+    "note": "Keep the work moving, from idea to launch.",
+    "bullets": [
+      "Coordinate cross-functional delivery",
+      "Manage campaign timelines & workflows",
+      "Negotiate brand partnerships & deliverables",
+      "Run e-commerce & product operations",
+      "Coordinate sourcing & international logistics"
+    ]
+  }
+}

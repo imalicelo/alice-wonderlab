@@ -1,0 +1,7 @@
+Source: cat-photos.jpg, the exact original nine-photo sheet supplied by Alice.
+Final treatment: per-photo SVG gamma curves and slight saturation balancing in the browser; original source pixels and all cat identities preserved. White-point remains white. See cat-credits.js for crop and tone parameters.
+A built-in image_gen lighting/identity-preserving retouch trial was inspected and rejected because it changed facial and fur details. The trial is not bundled or displayed on the website.
+Trial prompt: Conservative photographic exposure and white-balance correction across the same nine photos, preserving exact faces, fur, poses, props, placement and white background; natural soft daylight; no new content.
+Original source is retained unchanged. No generated cats are used.
+
+Stage125 update: pudding-floor.jpg is the exact original 1206 × 936 photo supplied on 2026-10-21, replacing the extra Crème stretching crop on spread 3. The browser applies a gentle gamma lift; the source image is unchanged. Each spread contains exactly one Crème, one Sesame and one Pudding.

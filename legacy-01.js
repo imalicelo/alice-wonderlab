@@ -1,0 +1,2 @@
+
+const signButton=document.createElement('button');signButton.textContent='店招特写';signButton.id='sign-closeup';document.querySelector('[data-view="rooftop"]').after(signButton);signButton.onclick=()=>{const r=window.__sceneReview;if(!r?.getModel())return;r.getModel().traverse(o=>{if(o.isMesh)o.visible=true});document.querySelector('#cup-choice').value='';document.querySelector('#selection').textContent='Alice Wonderlab · 门头招牌';r.camera.position.set(-.35,6.10,11.3);r.controls.target.set(-.35,5.48,2.48);r.controls.update()};

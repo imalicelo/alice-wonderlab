@@ -1,0 +1,13 @@
+{
+  "name": "alice-wonderlab",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.cjs",
+    "check": "node verify.cjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.186.1"
+  }
+}

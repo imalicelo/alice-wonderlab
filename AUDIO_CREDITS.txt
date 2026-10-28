@@ -1,0 +1,33 @@
+Stage113 audio sources
+
+Background music: 龙一Taki — 08 海滨. User-provided file, unchanged.
+
+pouring milk in to metal jug.wav — greatsoundstube
+https://freesound.org/people/greatsoundstube/sounds/628846/
+License: CC0
+
+Tea Pouring — mdayalan
+https://freesound.org/people/mdayalan/sounds/240125/
+License: CC0
+A quiet tail of this real liquid pour is also used as syrup foley.
+
+Cocktail Shaker.wav — KenRT
+https://freesound.org/people/KenRT/sounds/319995/
+License: CC0
+
+Ice in the Glass.wav — KenRT
+https://freesound.org/people/KenRT/sounds/319992/
+License: CC0
+
+Cat Purr & Meow / cat_softmew.wav — Kerzoven
+https://opengameart.org/content/cat-purr-meow
+License: CC0
+Actual cat recorded by the author; replaces the earlier human imitation.
+
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Freesound: public HQ MP3 previews. OpenGameArt: original WAV.
+Edits: trimmed to animation timing, level matched, edge fades. No pitch shifts or synthesized liquid/shaker/cat layers. Completion chime is synthesized. All game assets are embedded for offline playback.
+
+Stage114 addition: Knocking on Wood — ominouswhoosh (CC0)
+https://freesound.org/people/ominouswhoosh/sounds/679772/
+Trimmed original-pitch hammer-on-wood recording for two repair taps and the coconut impact.
